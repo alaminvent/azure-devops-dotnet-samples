@@ -1,5 +1,4 @@
-﻿[System.Obsolete("Use GetTeamMembersWithExtendedPropertiesAsync method", false)]
-using Microsoft.TeamFoundation.Core.WebApi;
+﻿using Microsoft.TeamFoundation.Core.WebApi;
 using Microsoft.VisualStudio.Services.WebApi;
 using System;
 using System.Collections.Generic;
