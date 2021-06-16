@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Azure.DevOps.ClientSamples.ProjectsAndTeamsz
+namespace Microsoft.Azure.DevOps.ClientSamples.ProjectsAndTeams
 {
     [ClientSample(CoreConstants.AreaName, CoreConstants.TeamsResource)]
     public class TeamsSample : ClientSample
