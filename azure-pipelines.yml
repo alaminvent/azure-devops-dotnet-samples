@@ -22,7 +22,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Build.ArtifactStagingDirectory)\ClientLibrary\Samples'
+    SourceFolder: 'D:\a\1\s\ClientLibrary\Samples'
     Contents: '**/*.csproj'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
