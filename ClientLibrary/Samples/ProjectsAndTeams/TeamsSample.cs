@@ -1,10 +1,11 @@
-﻿using Microsoft.TeamFoundation.Core.WebApi;
+﻿[System.Obsolete("Use GetTeamMembersWithExtendedPropertiesAsync method", false)]
+using Microsoft.TeamFoundation.Core.WebApi;
 using Microsoft.VisualStudio.Services.WebApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Azure.DevOps.ClientSamples.ProjectsAndTeams
+namespace Microsoft.Azure.DevOps.ClientSamples.ProjectsAndTeamsz
 {
     [ClientSample(CoreConstants.AreaName, CoreConstants.TeamsResource)]
     public class TeamsSample : ClientSample
